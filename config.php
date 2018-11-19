@@ -8,6 +8,7 @@ $data_pass= "fria";
 // $db['db_user']= "username";
 // $db['db_pass']= "pass";
 // $db['db_name']= "dbname";
+// $data_pass= "Pin Password";
 foreach ($db as $key => $value) {
   define(strtoupper($key), $value);
 }
