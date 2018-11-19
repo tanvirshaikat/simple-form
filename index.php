@@ -1,10 +1,9 @@
 <?php 
 
-$db['db_host']= "localhost";
-$db['db_user']= "tanvirsh_user";
-$db['db_pass']= "passwordispassword";
-$db['db_name']= "tanvirsh_form";
-
+$db['db_host']= "";
+$db['db_user']= "";
+$db['db_pass']= "";
+$db['db_name']= "";
 
 // $db['db_host']= "hostname";
 // $db['db_user']= "username";
@@ -246,109 +245,6 @@ p {
 								<input type="text" name="form_package" placeholder="" required="">
 							</div>
 							
-							<!--	<label>Date Of Order</label>-->
-								
-							<!--<div class="form_box">-->
-							<!--  <div class="select-block1 middle">-->
-							<!--	<select required="">-->
-							<!--		<option value="">Date</option>-->
-							<!--		<option value="">01</option>-->
-							<!--		<option value="">02</option>-->
-							<!--		<option value="">03</option>-->
-							<!--		<option value="">04</option>-->
-							<!--		<option value="">05</option>-->
-							<!--		<option value="">06</option>-->
-							<!--		<option value="">07</option>-->
-							<!--		<option value="">08</option>-->
-							<!--		<option value="">09</option>-->
-							<!--		<option value="">10</option>-->
-							<!--		<option value="">11</option>-->
-							<!--		<option value="">12</option>-->
-							<!--		<option value="">13</option>-->
-							<!--		<option value="">14</option>-->
-							<!--		<option value="">15</option>-->
-							<!--		<option value="">16</option>-->
-							<!--		<option value="">17</option>-->
-							<!--		<option value="">18</option>-->
-							<!--		<option value="">19</option>-->
-							<!--		<option value="">20</option>-->
-							<!--		<option value="">21</option>-->
-							<!--		<option value="">22</option>-->
-							<!--		<option value="">23</option>-->
-							<!--		<option value="">24</option>-->
-							<!--		<option value="">25</option>-->
-							<!--		<option value="">26</option>-->
-							<!--		<option value="">27</option>-->
-							<!--		<option value="">28</option>-->
-							<!--		<option value="">29</option>-->
-							<!--		<option value="">30</option>-->
-							<!--		<option value="">31</option>-->
-							<!--	</select>-->
-							<!--  </div>-->
-							<!--</div>-->
-							<!--<div class="form_box">-->
-							<!--   <div class="select-block1">-->
-							<!--	<select required="">-->
-							<!--		<option value="">Month</option>-->
-							<!--		<option value="">January</option>-->
-							<!--		<option value="">February</option>-->
-							<!--		<option value="">March</option>-->
-							<!--		<option value="">April</option>-->
-							<!--		<option value="">May</option>-->
-							<!--		<option value="">June</option>-->
-							<!--		<option value="">July</option>-->
-							<!--		<option value="">August</option>-->
-							<!--		<option value="">September</option>-->
-							<!--		<option value="">October</option>-->
-							<!--		<option value="">November</option>-->
-							<!--		<option value="">December</option>-->
-							<!--	</select>-->
-							<!--  </div>-->
-							<!-- </div>-->
-							<!--<div class="form_box1">-->
-							<!--   <div class="select-block1 last">-->
-							<!--	<select required="">-->
-							<!--		<option value="">Year</option>-->
-							<!--		<option value="">1982</option>-->
-							<!--		<option value="">1983</option>-->
-							<!--		<option value="">1984</option>-->
-							<!--		<option value="">1985</option>-->
-							<!--		<option value="">1986</option>-->
-							<!--		<option value="">1987</option>-->
-							<!--		<option value="">1988</option>-->
-							<!--		<option value="">1989</option>-->
-							<!--		<option value="">1990</option>-->
-							<!--		<option value="">1991</option>-->
-							<!--		<option value="">1992</option>-->
-							<!--		<option value="">1993</option>-->
-							<!--		<option value="">1994</option>-->
-							<!--		<option value="">1995</option>-->
-							<!--		<option value="">1996</option>-->
-							<!--		<option value="">1997</option>-->
-							<!--		<option value="">1998</option>-->
-							<!--		<option value="">1999</option>-->
-							<!--		<option value="">2000</option>-->
-							<!--		<option value="">2001</option>-->
-							<!--		<option value="">2002</option>-->
-							<!--		<option value="">2003</option>-->
-							<!--		<option value="">2004</option>-->
-							<!--		<option value="">2005</option>-->
-							<!--		<option value="">2006</option>-->
-							<!--		<option value="">2007</option>-->
-							<!--		<option value="">2008</option>-->
-							<!--		<option value="">2009</option>-->
-							<!--		<option value="">2010</option>-->
-							<!--		<option value="">2011</option>-->
-							<!--		<option value="">2012</option>-->
-							<!--		<option value="">2013</option>-->
-							<!--		<option value="">2014</option>-->
-							<!--		<option value="">2015</option>-->
-							<!--		<option value="">2016</option>-->
-							<!--		<option value="">2017</option>-->
-							<!--	</select>-->
-							<!--   </div>-->
-							<!--</div>-->
-							<!--<div class="clear"></div>-->
 						</div>
 					<div class="wthree-text"> 
 						<div class="wthreesubmitaits">
