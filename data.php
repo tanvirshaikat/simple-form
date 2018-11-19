@@ -75,7 +75,7 @@ if (isset($_POST['check'])) {
 	$pin=$_POST['pin'];
 	
 
-	if ($pin=='fria') {
+	if ($pin==$data_pass) {
 		?>
 		
 		
