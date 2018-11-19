@@ -1,9 +1,9 @@
 <?php 
 
-$db['db_host']= "localhost";
-$db['db_user']= "tanvirsh_user";
-$db['db_pass']= "passwordispassword";
-$db['db_name']= "tanvirsh_form";
+$db['db_host']= "";
+$db['db_user']= "";
+$db['db_pass']= "";
+$db['db_name']= "";
 
 
 // $db['db_host']= "localhost";
@@ -25,9 +25,6 @@ $connection->query("SET collation_connection = utf8_general_ci");
 if (!$connection) {
     die("something wrong in connection" . mysql_errno());
   }
-//  else {
-// echo "we are connected";
-// }
 
  ?>
 
@@ -131,10 +128,8 @@ if (isset($_POST['check'])) {
 
 
 <?php 
-
     $query = "SELECT * FROM form_data"; //query for showing post.
     $select_data = mysqli_query($connection, $query);
-
     while ($row = mysqli_fetch_assoc($select_data)) {
     $form_id = $row['form_id'];
     $form_name = $row['form_name'];
@@ -158,42 +153,30 @@ if (isset($_POST['check'])) {
     echo "<td>$form_package</td>";
     echo "<td>$form_date</td>";
     echo "<td><a style='text-decoration:none; color: #49a049;' href='data.php?delete={$form_id}'>Delete</a></td>";
-
     echo "</tr>";
 
 }
-
-
-
  ?>
 
 <?php  
 
-  if (isset($_GET['delete'])) {
-    $the_app_id = $_GET['delete'];
-    $query = "DELETE FROM form_data WHERE form_id = {$the_app_id} ";
-    $delete_user_query = mysqli_query($connection, $query);
-     header("Location:data.php");
-    //echo "<script> window.location='data.php'; </script>";
-  }
- ?>
-        </tbody>
-    </table>
+if (isset($_GET['delete'])) {
+$the_app_id = $_GET['delete'];
+$query = "DELETE FROM form_data WHERE form_id = {$the_app_id} ";
+$delete_user_query = mysqli_query($connection, $query);
+header("Location:data.php");
+//echo "<script> window.location='data.php'; </script>";
+}
+?>
+</tbody>
+</table>
 
-		
-		
-		
-		
-		
-		
-		<?php
+	<?php
 	}else {
 	echo "<div class='col-md-12 text-center'> <h4> Your PIN <span style='color:red;'> ". $pin ." </span> is wrong. Try again</h4>";
 }
 } 
-
- ?>
-      
+?>
     </div>
   </div>
 </div>
