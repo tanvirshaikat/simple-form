@@ -3,6 +3,7 @@ $db['db_host']= "";
 $db['db_user']= "";
 $db['db_pass']= "";
 $db['db_name']= "";
+$data_pass= "fria";
 // $db['db_host']= "hostname";
 // $db['db_user']= "username";
 // $db['db_pass']= "pass";
